@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APK Downloads</title>
+  <style>
+    body {
+      background-color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .headline {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .apk-card {
+      background-color: #E5F1FF;
+      border: 2px solid #5CAAFF; /* Stroke around the column */
+      border-radius: 12px;
+      padding: 20px;
+      margin: 15px auto;
+      width: 90%;
+      max-width: 500px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    .apk-row {
+      display: flex;
+      align-items: center;
+      gap: 10px; /* Space between logo and text */
+    }
+
+    .apk-logo {
+      width: 80px;
+      height: 80px;
+      border-radius: 20px; /* Rounded corners for logo */
+      object-fit: cover;
+    }
+
+    .apk-details {
+      flex-grow: 1;
+    }
+
+    .apk-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0;
+      color: #333;
+    }
+
+    .apk-description {
+      font-size: 14px;
+      font-style: italic; /* Italic style for description */
+      color: #555;
+      margin: 5px 0 0 0;
+    }
+
+    .btn {
+      display: block;
+      padding: 15px;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(90deg, #87CEEB, #007bff);
+      border: none;
+      border-radius: 50px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-align: center;
+      width: 100%; /* Full width button */
+      margin-top: 15px;
+      box-sizing: border-box;
+    }
+
+    .btn:hover {
+      background: linear-gradient(90deg, #007bff, #87CEEB);
+    }
+
+    .video-section {
+      margin-top: 30px;
+    }
+
+    video {
+      width: 90%;
+      max-width: 600px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="headline">Download Our Latest APKs</div>
+
+    <!-- APK 1 -->
+    <div class="apk-card">
+      <div class="apk-row">
+        <img src="Premium.png" alt="APK 1 Logo" class="apk-logo">
+        <div class="apk-details">
+          <div class="apk-title">Premium Hack v4.9</div>
+          <div class="apk-description">This hack is completely automatic, you can create a new account, recharge and see the direct result.</div>
+        </div>
+      </div>
+      <a href="Premium Hack (updated).apk" class="btn" download>Download</a>
+    </div>
+
+    <!-- APK 2 -->
+    <div class="apk-card">
+      <div class="apk-row">
+        <img src="vip.png" alt="APK 2 Logo" class="apk-logo">
+        <div class="apk-details">
+          <div class="apk-title">Vip Hack v4.9</div>
+          <div class="apk-description">This hack is the second version of premium hack and completely automatic and more advance, you can create a new account, recharge and see the direct result.</div>
+        </div>
+      </div>
+      <a href="Vip Hack v4.9.apk" class="btn" download>Download</a>
+    </div>
+
+    <!-- Video Section -->
+    <div class="video-section">
+      <div class="headline">How To Use</div>
+      <video controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</body>
+</html>
