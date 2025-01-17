@@ -25,7 +25,7 @@
 
     .apk-card {
       background-color: #E5F1FF;
-      border: 2px solid #5CAAFF; /* Stroke around the column */
+      border: 2px solid #5CAAFF;
       border-radius: 12px;
       padding: 20px;
       margin: 15px auto;
@@ -38,13 +38,13 @@
     .apk-row {
       display: flex;
       align-items: center;
-      gap: 10px; /* Space between logo and text */
+      gap: 10px;
     }
 
     .apk-logo {
       width: 80px;
       height: 80px;
-      border-radius: 20px; /* Rounded corners for logo */
+      border-radius: 20px;
       object-fit: cover;
     }
 
@@ -61,7 +61,7 @@
 
     .apk-description {
       font-size: 14px;
-      font-style: italic; /* Italic style for description */
+      font-style: italic;
       color: #555;
       margin: 5px 0 0 0;
     }
@@ -79,7 +79,7 @@
       cursor: pointer;
       transition: background 0.3s ease;
       text-align: center;
-      width: 100%; /* Full width button */
+      width: 100%;
       margin-top: 15px;
       box-sizing: border-box;
     }
@@ -92,11 +92,13 @@
       margin-top: 30px;
     }
 
-    video {
+    iframe {
       width: 90%;
       max-width: 600px;
+      height: 337px;
       border-radius: 12px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border: none;
     }
   </style>
 </head>
@@ -131,10 +133,7 @@
     <!-- Video Section -->
     <div class="video-section">
       <div class="headline">How To Use</div>
-      <video controls>
-        <source src="https://youtu.be/SiXagCKoH6c?si=qM44ZoIO9sF7JAca" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <iframe src="https://youtu.be/SiXagCKoH6c?si=sAfSaRMMadOz0QJI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </body>
